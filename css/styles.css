@@ -161,8 +161,8 @@ ul {
 /* -----------------Hero------------------ */
 
 .hero {
-  padding: 200px 452px;
-
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 
@@ -211,7 +211,6 @@ ul {
 }
 
 .features-title {
-  padding: 10px;
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -276,12 +275,12 @@ ul {
 
 .personal-information {
   flex-basis: calc (100% / 4 - 30px);
-  padding-bottom: 30px;
   background-color: #ffffff;
 }
 
-.employee-photo {
-  margin-bottom: 30px;
+.employee-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .employee {
@@ -385,12 +384,9 @@ ul {
 /* ----------------------Footer -------------------*/
 
 .footer {
-  background-color: #2f303a;
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 
 .footer-container .logo {
