@@ -389,7 +389,7 @@ ul {
   background-color: #2f303a;
 }
 
-.footer-container .logo {
+.footer .logo {
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -410,7 +410,7 @@ ul {
 }
 
 .contact-item + .contact-item {
-  margin-top: 6px;
+  margin-top: 9px;
 }
 
 .footer-mail,
